@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    background: #f8ffff;
+}
+header{
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+header > button{
+    width: 186.78px;
+height: 62.26px;
+top: 32px;
+gap: 0px;
+border-radius: 15px;
+background: #F05670;
+}
+/* banner section started */
+/* banner-left start */
+.banner{
+    display: flex;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px;
+}
+.banner-left> svg{
+    margin-left: 80px;
+}
+.banner-left > h2{
+    width: 222px;
+height: 80px;
+font-family: "Gilroy" sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+color: #1E959B;
+}
+.banner-left > p{
+    width: 320px;
+height: 48px;
+font-family: "Gilroy"sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+}
+.banner-left > button{
+    width: 232px;
+height: 70px;
+border-radius: 20px ;
+padding: 20px 30px;
+background: #F05670;
+box-shadow: 0px 5px 10px 0px #1E959B80;
+border: none;
+}
+.banner-right{
+    background-image: url(./img/banner-right.png);
+
+}
+
+button:active{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+/* banner-left end */
+/* chiziq start */
+.chiziq{
+    width: 100%;
+height: 90px;
+/* padding: 20px; */
+background: #1E959B; 
+padding: 20px;
+display: flex;
+/* gap: 5px; */
+justify-content: space-between;
+}
+/* chiziq  end*/
+
+/* cards start */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.card{
+    width: 195px;
+height: 164px;
+top: 923px;
+left: 627px;
+gap: 0px;
+opacity: 0px;
+border-radius: 25px ;
+background:linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+box-shadow: 0px 4px 4px 0px #1E959B80 ;
+    /* width: 195px;
+height: 164px;
+border-radius: 25px ;
+background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+box-shadow: 0px 4px 4px 0px #1E959B80 inset; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.card:active{
+    box-shadow: 0px 4px 4px 0px #1E959B80 inset;
+}
+.card> img{
+    width: 80px;
+height: 80px;
+margin: 10px 30px;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+}
+.card> p{
+width: 151px;
+height: 17px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/* card section end */
+/* banner2 start */
+.banner2{
+    display: flex;
+    gap:20px;
+}
+.banner2 > div:last-child > h2{
+    
+    color: #1E959B;
+    width: 371px;
+height: 120px;
+font-family: "Gilroy" sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+}
+.banner2 > div:last-child{
+width: 371px;
+height: 310px;
+top: 1225px;
+left: 885px;
+gap: 0px;
+opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.banner2 > div:last-child >p{
+    width: 310px;
+height: 49px;
+font-family: "Gilroy" sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+align-items: flex-start;
+
+}
+.banner2 > div:last-child >p>span{
+    font-family: "Gilroy" sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+
+
+}
+.banner2 > div:last-child > button{
+width: 232px;
+height: 70px;
+border-radius: 20px ;
+padding: 20px 30px;
+background: #F05670;
+box-shadow: 0px 5px 10px 0px #1E959B80;
+border: none;
+}
